@@ -40,8 +40,6 @@ class TicTacToe():
             
             #par ligne :
             if len(np.unique(self.plateau[i]))==1 and self.plateau[i][0]!='.':
-                #np.unique il élimine les doublons donc si il y a la même symbole sur toute la ligne np.unique()=[symbole]
-                #donc len() doit être égale à 1
                 self.etat=False
                 if self.plateau[i][0] == sym1:
                     return f"C'est {self.joueurs[0][0]} qui a gagné la partie en {self.manche} manches"
