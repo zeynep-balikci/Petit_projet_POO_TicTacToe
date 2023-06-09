@@ -1,1 +1,1 @@
-# Petit_projet_POO_TicTacToe
+Un petit projet réalisé pour nous entraîner à la programmation orientée objet.
